@@ -1,7 +1,7 @@
 import { parse } from "https://deno.land/std@0.182.0/flags/mod.ts";
 import { serve } from "https://deno.land/std@0.182.0/http/server.ts";
 
-const DEFAULT_PORT = 8080;
+const DEFAULT_PORT = 443;
 const TARGET_HOST = "huaning-openwebul.hf.space";
 
 function log(message: string) {
